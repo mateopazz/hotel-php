@@ -1,0 +1,20 @@
+.habitaciones{
+    
+    color: rgb(222, 205, 188);
+    display: flex;
+    flex-wrap: wrap;
+}
+.habitacion{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background-color: rgb(139, 121, 109);
+}
+.nombre_habitacion, .precio{
+    margin-top: 0.5em;
+    font-size: 30px;
+}
+.boton{
+    margin: auto;
+}
